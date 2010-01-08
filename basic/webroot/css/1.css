@@ -1,0 +1,150 @@
+body {
+	font: 62.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif;
+	color:#555;
+	margin:20px;
+	background:url(../img/body.jpg) top repeat-x #333;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	margin:0 auto;
+	background:#fff;
+	padding:5px;
+	border:4px solid #222;
+}
+
+.fixed {
+	width:760px;
+}
+
+.fluid {
+	width:90%;
+}
+
+#header {
+	height:110px;
+	background:url(../img/header.jpg) top repeat-x;
+}
+
+#header h1 {
+	height:45px;
+	font:250% Trebuchet MS;
+	padding:30px 20px 10px 20px;
+	color:#fff;
+}
+
+#nav {
+	margin:0 0 0 0;
+}
+
+#nav li {
+	list-style:none;
+	display:inline;
+	padding:7px 0;
+}
+
+#nav li a {
+	padding:7px;
+	color:#eee;
+	text-decoration:none;
+}
+
+#nav li a:hover {
+	background:#222;
+	color:#fff;
+}
+
+#sidebar_left {
+	float:left;
+	width:180px;
+	padding:0 10px;
+	background:#f6f6f6;
+	font:100% Verdana;
+	line-height:20px;
+	border-right:1px solid #eee;
+	margin:0 15px 0 0;
+}
+
+#sidebar_left h2 {
+	font:140% Arial;
+	color:#222;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	padding:5px;
+}
+
+#sidebar_left p {
+	line-height:20px;
+}
+
+#sidebar_right {	
+	width:160px;
+	padding:10px;
+	float:right;
+	background:#C8E4EE;
+	margin:0 0 10px 10px;
+	border-left:1px solid #97CBDF;
+	border-right:1px solid #97CBDF;
+	border-bottom:1px solid #97CBDF;
+	color:#1F5063;
+}
+
+#sidebar_right h2 {
+	font:110% Verdana;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#13313C;
+}
+
+#sidebar_right p {
+	font:100% Arial;
+	line-height:20px;
+}
+
+#content {
+	padding:0 15px;
+	font-size:120%;
+}
+
+#content h2 {
+	font:150% Trebuchet MS;
+	color:#222;
+	border-bottom:1px solid #eee;
+}
+
+#content h3 {
+	font:140% Arial;
+	color:#222;
+	border-top:1px solid #f6f6f6;
+	border-bottom:1px solid #f6f6f6;
+	padding:5px;
+}
+
+.with_sidebar {
+	margin:0 0 0 200px;
+}
+
+#content h1,h2,h3,h4,p,ul,ol,blockquote {
+	margin:15px 0;
+	line-height:25px;
+}
+#sidebar_left h1,h2,h3,h4,p,ul,ol,blockquote {
+	margin:15px 0;
+}
+#sidebar_right h1,h2,h3,h4,p,ul,ol,blockquote {
+	margin:15px 0;
+}
+
+#footer {
+	margin:30px 0 0 0;
+	padding:15px;
+	background:#f6f6f6;
+	border-top:2px solid #eee;
+	clear:both;
+}
+
+
